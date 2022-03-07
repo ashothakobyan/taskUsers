@@ -1,0 +1,28 @@
+#usereManagement{
+    width: 100%;
+    height:80px ;
+    background-color: deepskyblue;
+    border-radius: 1%;
+    display: flex;
+}
+#userText{
+    color: aliceblue;
+    font-size: 35px;
+
+}
+#userTextDiv{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#addUserIcon{
+    height: 5px;
+    width: 5px;
+}
+#addNewUser{
+    padding-top: 20px;
+    height: 35px;
+    padding-left:75% ;
+}
+#addNewUserText{
+    color: black;
+}

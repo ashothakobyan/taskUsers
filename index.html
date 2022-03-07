@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleUserManagement.css">
+    <link rel="stylesheet" href="usersTable.css">
+    <link rel="stylesheet" href="popupAddNewUser.css">
+    <link rel="stylesheet" href="popupEditUserTable.css">
+    <link rel="stylesheet" href="popupDelele.css">
+</head>
+<body>
+    <div id="root"> 
+        <div id="usereManagement">
+            <div id="userTextDiv">
+                <b id="userText">User Management</b>
+            </div>
+            <div id="addNewUser">
+                <button id="addNewUser"><img height="5px" width="5" id="addUserIcon" src="https://cdn4.iconfinder.com/data/icons/vectory-bonus-3/40/button_add-512.png" alt=""></button>
+                
+               <i id="addNewUserText">Add new User</i>
+                
+            </div>
+        </div>
+        <div id="users">
+            <div id="usersTable"> 
+                <table id="table">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>UserName</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Company</th>
+                        <th>website</th>
+                        <th>Actions</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="popupAddNewUser">
+            <h1>Add Employee</h1>
+            <hr>
+            <h3>Name</h3>
+            <input class="popupInput">
+            <h3>UserName</h3>
+            <input class="popupInput">
+            <h3>Email</h3>
+            <input class="popupInput">
+            <h3>Phone</h3>
+            <input  class="popupInput">
+            <h3>Address</h3>
+            <input class="popupInput">
+            <h3>Company</h3>
+            <input class="popupInput">
+            <h3>Website</h3>
+            <input class="popupInput">
+            <div>
+                <button  id="popupCancel" >cancel</button>
+                <button type="submit" id="popupAdd">Add</button>
+            </div>
+        </div>
+        <div id="editUserTable">
+            <table> 
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>UserName</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Company</th>
+                        <th>Website</th>
+                        <th>Actions</th>
+                      </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tr>
+                    <td><input class="editInput"></td>
+                    <td><input class="editInput"></td>
+                    <td><input class="editInput"></td>
+                    <td><input class="editInput"></td>
+                    <td><input class="editInput"></td>
+                    <td><input class="editInput"></td>
+                    <td><input class="editInput"></td>
+                    <td><button id="editAdd" class="editButton">Edit</button><button id="editCancel" class="editButton">Cancel</button></td>
+                </tr>
+            </table>
+        </div>
+        <div id="popupDelete">
+            <h3>Are you sure that you want to delete?</h3>
+            <button id="itemDelateButtonYes">Yes</button>
+            <button id="itemDelateButtonNo">No</button>
+        </div>
+    </div>
+    <script src="usersInfo.js"></script>
+    <script src="usersAdd.js"></script>
+    <script src="userEdit.js"></script>
+    <script src="userDelete.js"></script>
+</body>
+</html>

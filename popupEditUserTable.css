@@ -1,0 +1,21 @@
+#editUserTable{
+    width: 70%;
+    height: 12%;
+    border: 1px solid;
+    position:fixed;
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 12%;
+    background-color: whitesmoke;
+    display: none;
+    max-width: 1200px;
+    overflow-x: auto;
+}
+.editInput{
+    width: 100%;
+}
+.editButton{
+    font-size: medium;
+    margin-top: 2px;
+}
